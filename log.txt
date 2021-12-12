@@ -1,0 +1,70 @@
+[EL Fine]: server: 2021-12-11 21:04:31.807--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2021-12-11 21:04:31.951--ServerSession(2130772866)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Reuniao] is set to [FIELD].
+[EL Config]: metadata: 2021-12-11 21:04:31.976--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field participantes] is being defaulted to: class modelo.Participante.
+[EL Config]: metadata: 2021-12-11 21:04:31.976--ServerSession(2130772866)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Participante] is set to [FIELD].
+[EL Config]: metadata: 2021-12-11 21:04:31.977--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field reunioes] is being defaulted to: class modelo.Reuniao.
+[EL Config]: metadata: 2021-12-11 21:04:31.977--ServerSession(2130772866)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Convidado] is set to [FIELD].
+[EL Config]: metadata: 2021-12-11 21:04:31.977--ServerSession(2130772866)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Reuniao] is being defaulted to: Reuniao.
+[EL Config]: metadata: 2021-12-11 21:04:31.979--ServerSession(2130772866)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Reuniao] is being defaulted to: REUNIAO.
+[EL Config]: metadata: 2021-12-11 21:04:31.99--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [assunto] is being defaulted to: ASSUNTO.
+[EL Config]: metadata: 2021-12-11 21:04:31.992--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-11 21:04:31.992--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [dataHora] is being defaulted to: DATAHORA.
+[EL Config]: metadata: 2021-12-11 21:04:31.992--ServerSession(2130772866)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Convidado] is being defaulted to: Convidado.
+[EL Config]: metadata: 2021-12-11 21:04:31.992--ServerSession(2130772866)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Participante] is being defaulted to: Participante.
+[EL Config]: metadata: 2021-12-11 21:04:31.993--ServerSession(2130772866)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Participante] is being defaulted to: PARTICIPANTE.
+[EL Config]: metadata: 2021-12-11 21:04:31.993--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-11 21:04:31.993--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-12-11 21:04:31.994--ServerSession(2130772866)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Convidado] is being defaulted to: CONVIDADO.
+[EL Config]: metadata: 2021-12-11 21:04:31.994--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field reunioes] is being defaulted to: class modelo.Reuniao.
+[EL Config]: metadata: 2021-12-11 21:04:31.994--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-11 21:04:31.994--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [empresa] is being defaulted to: EMPRESA.
+[EL Config]: metadata: 2021-12-11 21:04:31.995--ServerSession(2130772866)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-12-11 21:04:32.008--ServerSession(2130772866)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field participantes] is being defaulted to: REUNIAO_PARTICIPANTE.
+[EL Config]: metadata: 2021-12-11 21:04:32.009--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field participantes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-11 21:04:32.009--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [participantes] is being defaulted to: Reuniao_ID.
+[EL Config]: metadata: 2021-12-11 21:04:32.009--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field participantes] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.009--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [participantes] is being defaulted to: participantes_NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field reunioes] is being defaulted to: PARTICIPANTE_REUNIAO.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field reunioes] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [reunioes] is being defaulted to: Participante_NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field reunioes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [reunioes] is being defaulted to: reunioes_ID.
+[EL Config]: metadata: 2021-12-11 21:04:32.01--ServerSession(2130772866)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field reunioes] is being defaulted to: CONVIDADO_REUNIAO.
+[EL Config]: metadata: 2021-12-11 21:04:32.011--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field reunioes] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.011--ServerSession(2130772866)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [reunioes] is being defaulted to: Convidado_NOME.
+[EL Config]: metadata: 2021-12-11 21:04:32.011--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field reunioes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-11 21:04:32.011--ServerSession(2130772866)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [reunioes] is being defaulted to: reunioes_ID.
+[EL Info]: 2021-12-11 21:04:32.095--ServerSession(2130772866)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.9.v20210604-2c549e2208
+[EL Fine]: connection: 2021-12-11 21:04:32.494--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2021-12-11 21:04:32.502--ServerSession(2130772866)--Connection(2037764568)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/agenda"
+))
+[EL Config]: connection: 2021-12-11 21:04:32.568--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/agenda
+	User: postgres
+	Database: PostgreSQL  Version: 13.3
+	Driver: PostgreSQL JDBC Driver  Version: 42.3.0
+[EL Fine]: connection: 2021-12-11 21:04:32.616--ServerSession(2130772866)--Thread(Thread[main,5,main])--/file:/C:/Users/roose/OneDrive/Documentos/IFPB/P4/POB/AgendaJPA-dao/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/agenda login successful
+[EL Fine]: sql: 2021-12-11 21:04:32.903--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT DISTINCT t1.NOME, t1.EMAIL FROM REUNIAO t0, PARTICIPANTE_REUNIAO t2, PARTICIPANTE t1 WHERE ((((SUBSTR(CAST(t0.DATAHORA AS TEXT), ?, ?) = ?) AND (t0.ID IN (SELECT DISTINCT t3.ID FROM PARTICIPANTE_REUNIAO t5, PARTICIPANTE t4, REUNIAO t3 WHERE ((t4.NOME = ?) AND ((t5.Participante_NOME = t4.NOME) AND (t3.ID = t5.reunioes_ID)))) OR t0.ID IN (SELECT DISTINCT t6.ID FROM CONVIDADO_REUNIAO t8, CONVIDADO t7, REUNIAO t6 WHERE ((t7.NOME = ?) AND ((t8.Convidado_NOME = t7.NOME) AND (t6.ID = t8.reunioes_ID)))))) AND (t1.NOME <> ?)) AND ((t2.Participante_NOME = t1.NOME) AND (t0.ID = t2.reunioes_ID)))
+	bind => [6, 2, 12, joao, joao, joao]
+[EL Fine]: sql: 2021-12-11 21:04:32.915--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT DISTINCT t3.NOME, t3.EMAIL, t3.EMPRESA FROM PARTICIPANTE_REUNIAO t5, CONVIDADO_REUNIAO t4, CONVIDADO t3, REUNIAO t2, PARTICIPANTE t1, REUNIAO t0 WHERE ((((SUBSTR(CAST(t2.DATAHORA AS TEXT), ?, ?) = ?) AND (t2.ID IN (SELECT DISTINCT t6.ID FROM PARTICIPANTE t7, REUNIAO t6, PARTICIPANTE_REUNIAO t11, PARTICIPANTE_REUNIAO t10, PARTICIPANTE t9, REUNIAO t8 WHERE ((t7.NOME = ?) AND (((t10.Participante_NOME = t7.NOME) AND (t6.ID = t10.reunioes_ID)) AND ((t11.Participante_NOME = t9.NOME) AND (t8.ID = t11.reunioes_ID))))) OR t2.ID IN (SELECT DISTINCT t12.ID FROM CONVIDADO t13, REUNIAO t12, CONVIDADO_REUNIAO t17, CONVIDADO_REUNIAO t16, CONVIDADO t15, REUNIAO t14 WHERE ((t13.NOME = ?) AND (((t16.Convidado_NOME = t13.NOME) AND (t12.ID = t16.reunioes_ID)) AND ((t17.Convidado_NOME = t15.NOME) AND (t14.ID = t17.reunioes_ID))))))) AND (t3.NOME <> ?)) AND (((t4.Convidado_NOME = t3.NOME) AND (t2.ID = t4.reunioes_ID)) AND ((t5.Participante_NOME = t1.NOME) AND (t0.ID = t5.reunioes_ID))))
+	bind => [6, 2, 12, joao, joao, joao]
+[EL Fine]: sql: 2021-12-11 21:04:32.922--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA FROM PARTICIPANTE_REUNIAO t0, REUNIAO t1 WHERE ((t0.Participante_NOME = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [maria]
+[EL Fine]: sql: 2021-12-11 21:04:32.928--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT DISTINCT t0.ID, t0.ASSUNTO, t0.DATAHORA FROM REUNIAO t0, CONVIDADO_REUNIAO t2, CONVIDADO t1 WHERE ((t2.Convidado_NOME = t1.NOME) AND (t0.ID = t2.reunioes_ID)) ORDER BY t0.ID
+[EL Fine]: sql: 2021-12-11 21:04:32.933--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [3]
+[EL Fine]: sql: 2021-12-11 21:04:32.935--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL, t1.EMPRESA FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [3]
+[EL Fine]: sql: 2021-12-11 21:04:32.936--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [4]
+[EL Fine]: sql: 2021-12-11 21:04:32.937--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL, t1.EMPRESA FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [4]
+[EL Fine]: sql: 2021-12-11 21:04:32.938--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [5]
+[EL Fine]: sql: 2021-12-11 21:04:32.939--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--SELECT t1.NOME, t1.EMAIL, t1.EMPRESA FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.Reuniao_ID = ?) AND (t1.NOME = t0.participantes_NOME))
+	bind => [5]
+[EL Fine]: connection: 2021-12-11 21:04:32.941--ServerSession(2130772866)--Connection(37981645)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2021-12-11 21:04:32.942--ServerSession(2130772866)--Thread(Thread[main,5,main])--/file:/C:/Users/roose/OneDrive/Documentos/IFPB/P4/POB/AgendaJPA-dao/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/agenda logout successful
+[EL Fine]: connection: 2021-12-11 21:04:32.942--ServerSession(2130772866)--Connection(2037764568)--Thread(Thread[main,5,main])--disconnect
