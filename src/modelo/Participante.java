@@ -20,7 +20,7 @@ public class Participante {
 	
     private String email;
     
-    @ManyToMany
+    @ManyToMany(mappedBy = "participantes", cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.LAZY)
     private List<Reuniao> reunioes = new ArrayList<>();
 
     public Participante() {}

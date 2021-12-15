@@ -27,10 +27,10 @@ public class DAOParticipante extends DAO<Participante> {
         	String Consulta = String.format(
         			"SELECT DISTINCT P FROM Participante P JOIN P.reunioes R "
 					+ "WHERE SUBSTRING(CAST(R.dataHora  AS TEXT), 6, 2) = '%1$d'"
-					+ "AND (R.id IN(SELECT RP.id FROM Participante Pa JOIN "
-					+ "Pa.reunioes RP WHERE Pa.nome = '%2$s') "
-					+ "OR (R.id IN(SELECT RC.id FROM Convidado C JOIN "
-					+ "C.reunioes RC WHERE C.nome = '%2$s'))) AND P.nome <> '%2$s'", mes, nomePart);
+					+ "AND (R.id IN(SELECT R1.id FROM Participante P1 JOIN "
+					+ "P1.reunioes R1 WHERE P1.nome = '%2$s') "
+					+ "OR (R.id IN(SELECT R2.id FROM Convidado C JOIN "
+					+ "C.reunioes R2 WHERE C.nome = '%2$s'))) AND P.nome <> '%2$s'", mes, nomePart);
         	
 			TypedQuery<Participante> q = manager.createQuery(Consulta, Participante.class);
 
